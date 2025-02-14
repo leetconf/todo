@@ -1,0 +1,31 @@
+{
+    "add": {
+        "help": "Add a new task",
+        "args": {
+            "description": "Description of the task"
+        }
+    },
+    "tg": {
+        "help": "Toggle the completion status of a task",
+        "args": {
+            "ids": "IDs of the tasks whose completion status you want to toggle"
+        }
+    },
+    "edit": {
+        "help": "Edit a task",
+        "args": {
+            "id": "ID of the task you want to edit its description",
+            "new_description": "New description for the task"
+        }
+    },
+    "rm": {
+        "help": "Remove a task",
+        "args": {
+            "ids": "IDs of the tasks you want to remove"
+        }
+    },
+    "ls": {
+        "help": "List all tasks",
+        "args": null
+    }
+}
